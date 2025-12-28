@@ -45,7 +45,7 @@ export const NavBar = () => {
     {/* ========================== Mobile Menu =============================*/}
     <div
      className={
-      `md:hidden fixed inset-0 h-[40vh] z-20
+      `md:hidden fixed inset-0 h-[70vh] z-20
        overflow-hidden backdrop-blur-2xl
        transform transition-transform duration-300 ease-out ${showMobileMenu ? 'translate-y-0' : '-translate-y-full'}
       `}
