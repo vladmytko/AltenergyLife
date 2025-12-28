@@ -21,7 +21,9 @@ export const NavBar = () => {
   return (
     <div style={{backgroundColor: "#2d6048"}} className='absolute top-0 left-0 w-full z-10 backdrop-blur-md'>
       <div className='flex items-center justify-between w-full px-4 py-4 md:px-20 lg:px-32'>
-        <img className='h-11' src={assets.logo} alt='' />
+        <Link to="/">
+          <img className='h-11 cursor-pointer' src={assets.logo} alt='Home' />
+        </Link>
 
         <div className='flex-1 flex justify-center md:mr-36'>
           <ul className='hidden md:flex gap-7 text-xl text-white'>
