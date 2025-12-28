@@ -1,16 +1,71 @@
-# React + Vite
+# Altenergy.life – Client Website (Freelance Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **freelance website developed for a real client** in the renewable energy sector.  
+The client has **granted permission for this website to be showcased in my portfolio**.
 
-Currently, two official plugins are available:
+🔗 Live website: https://altenergy.life
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Altenergy.life is a modern, responsive website designed to present the client’s renewable energy services, strategy offerings, certifications, and contact information in a clear and professional way.
 
-## Expanding the ESLint configuration
+The website was built as a **single-page application (SPA)** with additional routes for service pages and legal content.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Client & Usage Disclaimer
+- This website was created for a client.
+- All content and branding to the client.
+- The project is displayed here for portfolio and demonstration purposes only, with the client’s consent.
+- The code may be reused as a reference, but the design and content should not be copied for commercial use.
+---
+
+## Tech Stack
+
+- **React**
+- **React Router**
+- **Tailwind CSS**
+- **Vite**
+- **Vercel** (deployment)
+
+---
+
+## Features
+
+- Responsive design (mobile-first)
+- Smooth scrolling and section navigation
+- Client-side routing (React Router)
+- Dedicated pages for:
+  - Strategy Services
+  - About
+  - Privacy Policy
+- SEO-friendly structure
+- Deployed on Vercel with SPA routing configuration
+
+---
+
+## Project Structure
+
+src/
+├── components/
+│   ├── MainPage/
+│   ├── StrategyComponents/
+│   └── PrivacyPolicy/
+├── App.jsx
+├── main.jsx
+└── index.css
+
+---
+
+## Deployment
+
+The application is deployed on **Vercel**.
+
+Since this is a Single Page Application, routing is handled via a rewrite rule to prevent 404 errors on page refresh:
+
+```json
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+}
