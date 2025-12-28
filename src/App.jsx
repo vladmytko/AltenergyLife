@@ -49,7 +49,7 @@ const App = () => {
             />
             <Route path="/about" element={<About />} />
             <Route path="/strategy-services" element={<StrategyServices />} />
-            <Route path="/privacy" element={<PrivacyPolicy />} />
+            <Route path="/privacypolicy" element={<PrivacyPolicy />} />
           </Routes>
           </main>
           <Footer />

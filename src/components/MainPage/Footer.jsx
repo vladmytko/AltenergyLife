@@ -43,7 +43,7 @@ const Footer = () => {
             {/* Privacy Policy */}
             <li className="flex flex-col items-center lg:items-start space-y-0">
               <span className="text-white text-lg font-bold mb-3">Privacy Policy</span>
-              <a href="/privacy" className="hover:underline">
+              <a href="/privacypolicy" className="hover:underline">
                 View Privacy Policy
               </a>
             </li>
