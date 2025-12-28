@@ -49,7 +49,7 @@ export const NavBar = () => {
      className={
       `md:hidden fixed inset-0 h-[70vh] z-20
        overflow-hidden backdrop-blur-2xl
-       transform transition-transform duration-300 ease-out ${showMobileMenu ? 'translate-y-0' : '-translate-y-full'}
+       transform transition-transform duration-300 ease-out ${showMobileMenu ? 'translate-y-0' : '-translate-y-[100vh]'}
       `}
        style={{ backgroundColor: "#1c4061" }}
     >
