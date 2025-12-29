@@ -1,9 +1,9 @@
 # Altenergy.life – Client Website (Freelance Project)
 
-This project is a **freelance website developed for a real client** in the renewable energy sector.  
+This project is a **freelance website developed for a client** in the renewable energy sector.  
 The client has **granted permission for this website to be showcased in my portfolio**.
 
-🔗 Live website: https://altenergy.life
+🔗 Live website: https://altenergy-life.vercel.app/ 
 
 ---
 
