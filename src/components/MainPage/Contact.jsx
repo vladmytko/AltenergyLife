@@ -53,7 +53,7 @@ const Contact = () => {
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-        className="relative max-w-6xl mx-auto px-3 sm:px-6 py-16"
+        className="relative max-w-6xl mx-auto px-3 sm:px-6 py-12"
         id="Contact"
       >
         <div className="flex flex-col lg:flex-row gap-10 mx-auto max-w-xl lg:max-w-none lg:w-full ">
