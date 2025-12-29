@@ -8,7 +8,7 @@ import { scrollToHash } from "../utils/scrollToHash";
 const Header = () => {
   return (
     <div
-      className="h-[50vh] md:h-[80vh] md-4 bg-cover bg-center flex items-center w-full overflow-hidden"
+      className="h-[80vh] md-4 bg-cover bg-center flex items-center w-full overflow-hidden"
       style={{ backgroundImage: "url('/main_header.jpg')" }}
       id="Header"
     >

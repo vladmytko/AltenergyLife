@@ -10,7 +10,7 @@ const StrategyServices = () => {
   return (
     <section className="white">
       <div
-        className="h-[50vh] md:h-[80vh] bg-cover bg-center flex items-center w-full overflow-hidden"
+        className="h-[80vh] bg-cover bg-center flex items-center w-full overflow-hidden"
         style={{ backgroundImage: "url('/strategy_header.jpeg')" }}
         id="Header"
       >
