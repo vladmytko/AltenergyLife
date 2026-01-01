@@ -79,8 +79,12 @@ const Contact = () => {
           </div>
 
           {/* RIGHT FORM */}
-          <div className="lg:w-1/2">
-            {status === "success" ? (
+
+          {/* Successful message */}
+          <div className="lg:w-1/2 min-h-[200px] sm:min-h-[520px] flex items-center">
+            {status === "success" ? ( // if status = success
+              
+              // SHOW this message
               <div className="bg-white rounded-2xl p-12 text-center">
                 <h2 className="text-3xl font-bold text-green-700 mb-4">
                   Thank you!
@@ -93,12 +97,16 @@ const Contact = () => {
                   We usually respond within 24 hours.
                 </p>
               </div>
+              
             ) : (
+
+              // SHOW this form is status != success
+
               /* FORM STARTS HERE */
               <form
                 ref={form}
                 onSubmit={sendEmail}
-                className="bg-white rounded-2xl p-3 sm:p-8 space-y-4"
+                className="bg-white rounded-2xl p-3 sm:p-6 space-y-4"
               >
                 {/* NAME INPUT */}
                 <div className="w-full text-left">
@@ -160,6 +168,7 @@ const Contact = () => {
                   ></textarea>
                 </div>
 
+                {/* Honeypot  */}
                 <input
                   type="text"
                   name="company"
@@ -167,7 +176,9 @@ const Contact = () => {
                   autoComplete="off"
                   className="hidden"
                 />
+                {/* End of Honeypot  */}
 
+                {/* Tick to agree to be contacted  */}
                 <div className="space-y-2 text-base ml-1">
                   <label className="flex items-start gap-2">
                     <input
