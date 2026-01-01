@@ -12,7 +12,9 @@ const Header = () => {
       style={{ backgroundImage: "url('/main_header.jpg')" }}
       id="Header"
     >
+      
       <NavBar />
+
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         transition={{ duration: 1.5 }}

@@ -9,11 +9,15 @@ const Contact = () => {
   const [cooldown, setCooldown] = useState(false);
   const COOLDOWN_MS = 20000; // 20 seconds cooldown
 
+  const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+  const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+  const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
   const sendEmail = (e) => {
     e.preventDefault();
 
     // Honeypot field check
-    if(form.current.company.value) {
+    if (form.current.company.value) {
       return; // Honeypot field filled, likely a bot
     }
 
@@ -26,9 +30,13 @@ const Contact = () => {
     }, COOLDOWN_MS);
 
     emailjs
-      .sendForm("service_hq3fb7g", "template_ow7bbgu", form.current, {
-        publicKey: "MSUzLW7u61SprUMv8",
-      })
+      .sendForm(
+        EMAILJS_SERVICE_ID, 
+        EMAILJS_TEMPLATE_ID, 
+        form.current, 
+        {
+        publicKey: EMAILJS_PUBLIC_KEY,
+        })
       .then(
         () => {
           console.log("Email sent successfully");
@@ -180,7 +188,7 @@ const Contact = () => {
                   disabled={status === "sending"}
                   className={`w-full bg-green-700 rounded-md text-white py-2 font-semibold hover:bg-green-800 transition-colors duration-300
                   ${
-                    (status === "sending" || cooldown)
+                    status === "sending" || cooldown
                       ? "bg-gray-400 cursor-not-allowed"
                       : "bg-green-700 hover:bg-green-8"
                   }`}
