@@ -70,7 +70,7 @@ const Contact = () => {
             <h1 className="text-3xl sm:text-4xl font-bold mb-4">
               Get In Touch{" "}
             </h1>
-            <p className="text-base sm:text-xl mt-8 font-semibold mb-2">
+            <p className="text-base sm:text-xl font-semibold mb-2">
               Interested in learning more about our products and services? Get a
               free quote today by filling out our online form or giving us a
               call. Our team will be happy to answer your questions and help you
@@ -197,11 +197,11 @@ const Contact = () => {
                 <button
                   type="submit"
                   disabled={status === "sending"}
-                  className={`w-full bg-green-700 rounded-md text-white py-2 font-semibold hover:bg-green-800 transition-colors duration-300
+                  className={`w-full bg-[#252f72] rounded-md text-white py-2 font-semibold hover:bg-[#2139c0] transition-colors duration-300
                   ${
                     status === "sending" || cooldown
                       ? "bg-gray-400 cursor-not-allowed"
-                      : "bg-green-700 hover:bg-green-8"
+                      : "bg-[#252f72] hover:bg-[#2139c0]"
                   }`}
                 >
                   Send Message

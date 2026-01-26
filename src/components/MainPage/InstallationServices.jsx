@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { ServiceItems } from './InstallationItems'
 import { assets } from '../../assets/assets'
+import { Link } from 'react-router'
 motion
 
 const Services = () => {
@@ -11,7 +12,7 @@ const Services = () => {
         style={{ backgroundColor: "#2d6048" }}
         className="flex flex-col justify-center items-center text-center pt-5 pb-5 sm:pt-10 sm:pb-10 mb-10 "
       >
-        <h2 className="text-white text-2xl sm:text-4xl md:text-5xl font-semibold">
+        <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-semibold">
           Home Energy Installations
         </h2>
         <div
@@ -39,23 +40,34 @@ const Services = () => {
               {/* text content */}
               <div className="p-6 flex flex-col flex-1 ">
                 <h3 className="text-xl sm:text-3xl font-semibold mb-2">{item.title}</h3>
-                <p className="text-gray-900 text-baset sm:text-lg mb-4 space-y-2">
-                  {item.description.split('. ').map((sentence, index) => (
-                    <span key={index} className='flex'>
-                      <img src={assets.tick} alt="tick" className='w-8 h-8 flex-shrink-0' />
-                      <span>{sentence}.</span>
-                    </span>
+                <div className="text-gray-900 text-base sm:text-lg mb-4 space-y-2">
+                  {(Array.isArray(item.description)
+                    ? item.description
+                    : String(item.description)
+                        .split(". ")
+                        .filter(Boolean)
+                  ).map((bullet, index) => (
+                    <div key={index} className="flex gap-2">
+                      <img src={assets.tick} alt="tick" className="w-8 h-8 flex-shrink-0" />
+                      <div>
+                        {typeof bullet === "string" ? (
+                          <span>{bullet.endsWith(".") ? bullet : `${bullet}.`}</span>
+                        ) : (
+                          bullet
+                        )}
+                      </div>
+                    </div>
                   ))}
-                </p>
+                </div>
 
                                   
 
                 
 
-                {/* button sticks to bottom using mt-auto on it or flex-1 on content */}
-                {/* <button className="mt-auto inline-block bg-green-700 text-white px-8 py-2 rounded hover:bg-green-800 transition-colors duration-300">
+                {/* button sticks to bottom */}
+                <Link to={item.link} className='mt-auto text-center inline-block bg-secondary text-white px-8 py-2 rounded hover:bg-buttonhover transition-colors duration-300'>
                   DISCOVER
-                </button> */}
+                </Link>
               </div>
             </div>
           ))}

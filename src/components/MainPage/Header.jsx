@@ -22,21 +22,24 @@ const Header = () => {
         viewport={{ once: true }}
         className="container text-center mx-auto py-4 px-6 md:px-20 lg:px-32 text-white"
       >
-        <h2 className="text-2xl sm:text-6xl md:text-[82px] inline-block max-w-3xl font-semibold pt-20">
-          Explore solutions that fit your dreams
+        <h2 className="text-3xl md:text-5xl leading-[1.2] md:leading-[1.4] inline-block font-semibold pt-20 ">
+          Clean Energy Solutions for Homes & Businesses
         </h2>
+        <h3 className="text-xl md:text-2xl text-gray-300 font-semibold inline-block mt-5 max-w-4xl">
+          We design, install and maintain solar power and energy storage systems tailored to your needs. 
+        </h3>
         <div className="mt-10 flex flex-col gap-4 sm:flex-row justify-center items-center sm:gap-6">
           <Link
             to="/#Contact"
             onClick={() => scrollToHash("#Contact")}
-            className="w-fit px-8 py-3 rounded bg-green-600 hover:bg-green-800 transition-colors duration-300"
+            className="w-[210px] px-8 py-3 border border-[#252f72] rounded bg-[#252f72] hover:bg-[#2139c0] transition-colors duration-300"
           >
-            Contact Us
+            Get a Consultation
           </Link>
 
           <Link
             to="/about"
-            className="w-fit border border-white px-8 py-3 rounded hover:border-gray-400 hover:text-gray-400 transition-colors duration-300"
+            className="w-[210px]  border border-white px-8 py-3 rounded hover:border-gray-400 hover:text-gray-400 transition-colors duration-300"
           >
             About Us
           </Link>

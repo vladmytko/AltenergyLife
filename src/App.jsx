@@ -10,6 +10,10 @@ import StrategyIntro from './components/MainPage/StrategyIntro'
 import StrategyServices from './components/StrategyComponents/StrategyServices'
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy'
 import { useEffect } from 'react'
+import SolarPanels from './components/Installations/SolarPanels/SolarPanels'
+import HeatPump from './components/Installations/HeatPump/HeatPump'
+import EcoWindows from './components/Installations/EcoWindows/EcoWindows'
+import HomeInsulation from './components/Installations/HomeInsulation/HomeInsulation'
 
 const App = () => {
 
@@ -50,6 +54,10 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/strategy-services" element={<StrategyServices />} />
             <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+            <Route path="/installations/solar-panels" element={<SolarPanels />} />
+            <Route path="/installations/heat-pump" element={<HeatPump />} />
+            <Route path="/installations/eco-windows" element={<EcoWindows />} />
+            <Route path="/installations/home-insulation" element={<HomeInsulation /> } />
           </Routes>
           </main>
           <Footer />

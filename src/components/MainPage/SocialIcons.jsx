@@ -10,7 +10,7 @@ export default function SocialIcons() {
         <a
             href="https://www.facebook.com/profile.php?id=61573120655362"
             target="_blank"
-            className='w-14 h-14 flex justify-center items-center rounded-full bg-[#7bbf39] text-black text-xl transition-transform duration-300 hover:scale-110 hover:bg-[#9ee252]'
+            className='w-20 h-20 flex justify-center items-center text-3xl border rounded-full transition-transform duration-300 hover:scale-110 '
         >
             <FontAwesomeIcon icon={faFacebookF} />
         </a>
@@ -19,8 +19,8 @@ export default function SocialIcons() {
         <a
             href="https://www.instagram.com/altenergy.life?igsh=ZHo3dDJoNzIwNXJ1&utm_source=qr"
             target="_blank"
-            className='w-14 h-14 flex justify-center items-center rounded-full bg-[#7bbf39] text-black text-xl transition-transform duration-300 hover:scale-110 hover:bg-[#9ee252]'
-        >
+            className='w-20 h-20 flex justify-center items-center text-3xl border rounded-full transition-transform duration-300 hover:scale-110 '
+        > 
             <FontAwesomeIcon icon={faInstagram} />
         </a>
 
@@ -28,7 +28,7 @@ export default function SocialIcons() {
         <a
             href="https://www.linkedin.com/company/altenergy-life/?viewAsMember=true"
             target="_blank"
-            className='w-14 h-14 flex justify-center items-center rounded-full bg-[#7bbf39] text-black text-xl transition-transform duration-300 hover:scale-110 hover:bg-[#9ee252]'
+            className='w-20 h-20 flex justify-center items-center text-3xl border rounded-full transition-transform duration-300 hover:scale-110 '
         >
             <FontAwesomeIcon icon={faLinkedinIn} />
         </a>
