@@ -11,8 +11,8 @@ const Service1 = () => {
         style={{ backgroundColor: "#2d6048" }}
         className="flex flex-col justify-center items-center text-center pt-5 pb-5 sm:pt-10 sm:pb-10"
       >
-        <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-semibold">
-          One Plan. Lower Bills. More Independence.
+        <h2 className="text-white text-2xl sm:text-3xl md:text-5xl font-medium">
+          One Plan. Lower Bills. More Independence
         </h2>
         <div
           className="mt-4 h-1 w-1/2"
@@ -51,10 +51,10 @@ const Service1 = () => {
               },
             ].map((item) => (
               <div key={item.title} className="w-full max-w-md mt-5">
-                <h3 className="text-lg sm:text-2xl xl:text-3xl font-semibold">
+                <h3 className="text-4xl md:text-5xl font-medium">
                   {item.title}
                 </h3>
-                <p className="text-base sm:text-lg xl:text-xl mt-2 font-light text-gray-800">
+                <p className="text-xl md:text-2xl mt-2 font text-gray-800">
                   {item.desc}
                 </p>
               </div>

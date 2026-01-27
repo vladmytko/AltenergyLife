@@ -22,10 +22,10 @@ const Header = () => {
         viewport={{ once: true }}
         className="container text-center mx-auto py-4 px-6 md:px-20 lg:px-32 text-white"
       >
-        <h2 className="text-3xl md:text-5xl leading-[1.2] md:leading-[1.4] inline-block font-semibold pt-20 ">
+        <h2 className="text-4xl sm:text-6xl leading-[1.2] md:leading-[1.4] inline-block font-medium pt-20 ">
           Clean Energy Solutions for Homes & Businesses
         </h2>
-        <h3 className="text-xl md:text-2xl text-gray-300 font-semibold inline-block mt-5 max-w-4xl">
+        <h3 className="text-2xl md:text-4xl font inline-block mt-5 max-w-4xl">
           We design, install and maintain solar power and energy storage systems tailored to your needs. 
         </h3>
         <div className="mt-10 flex flex-col gap-4 sm:flex-row justify-center items-center sm:gap-6">

@@ -9,6 +9,9 @@ motion;
 const SolarPanels = () => {
   return (
     <section className="white">
+
+      {/* =========================== HEADER =========================== */}
+
       <div
         className="h-[50vh] bg-cover bg-center flex items-center w-full overflow-hidden"
         style={{ backgroundImage: "url('/strategy_header.jpeg')" }}
@@ -22,10 +25,10 @@ const SolarPanels = () => {
           viewport={{ once: true }}
           className="container text-center mx-auto py-4 px-6 md:px-20 lg:px-32 text-white"
         >
-          <h2 className="text-2xl sm:text-6xl md:text-[82px] inline-block max-w-3xl font-semibold pt-20">
+          <h2 className="text-4xl sm:text-6xl md:text-[82px] inline-block max-w-3xl font-medium pt-20">
             Solar Panels
           </h2>
-          <h3 className="text-3xl md:text-5xl inline-block font-medium pt-4">
+          <h3 className="text-2xl md:text-5xl inline-block font-medium pt-4">
             This is not just an installation — it’s a long-term energy asset.
           </h3>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row justify-center items-center sm:gap-6">
@@ -45,6 +48,10 @@ const SolarPanels = () => {
         </motion.div>
       </div>
 
+      {/* =========================== ENF OF HEADER =========================== */}
+
+      {/* =========================== INFORMATION SECTIONS =========================== */}
+
       <div className="w-full px-10 flex flex-col lg:flex-row lg:items-center lg:gap-16 py-16">
         {/* RIGHT SIDE - Text */}
 
@@ -53,8 +60,8 @@ const SolarPanels = () => {
             Discover the Benefits
           </h2>
 
-          <div className="space-y-4 text-gray-800 ">
-            <p className="text-medium md:text-2xl">
+          <div className="space-y-4 text-gray-900 ">
+            <p className="text-xl md:text-3xl">
               Solar panels are one of the most effective upgrades for UK
               homeowners looking to{" "}
               <span className="font-semibold">
@@ -77,6 +84,11 @@ const SolarPanels = () => {
           </div>
         </div>
       </div>
+
+      {/* =========================== END OF INFORMATION SECTIONS =========================== */}
+
+
+      {/* =========================== BULLET POINTS ========================================== */}
 
       <div className="items-center text-center px-6 md:px-24 py-20 space-y-12 text-gray-900 bg-gray-100">
         <h2 className="text-3xl md:text-6xl mt-8 lg:mt-0 font-bolt leading-tight">
@@ -108,12 +120,17 @@ const SolarPanels = () => {
         </div>
       </div>
 
+      {/* =========================== END OF BULLET POINTS =================================== */}
+
+      {/* =========================== INFORMATION SECTIONS =========================== */}
+      
+
       <div className="w-full px-10 flex flex-col lg:flex-row lg:items-center lg:gap-16 py-16">
         {/* RIGHT SIDE - Text */}
 
-        <div className="lg:w-1/2 space-y-10 text-gray-900 order-2">
-          <div className="space-y-8 text-gray-800 ">
-            <p className="text-medium md:text-2xl">
+        <div className="lg:w-1/2 space-y-10 text-gray-900 order-1 lg:order-2">
+          <div className="space-y-8 text-gray-900 ">
+            <p className="text-xl md:text-3xl">
               Our systems are designed to deliver{" "}
               <span className="font-semibold">
                 up to 60% reduction in electricity costs
@@ -124,7 +141,7 @@ const SolarPanels = () => {
 
             <hr className="mt-6 border-gray-200" />
 
-            <p className="text-medium md:text-2xl">
+            <p className="text-xl md:text-3xl">
               Every installation is tailored to roof orientation, shading, and
               household usage — no generic layouts.
             </p>
@@ -132,7 +149,7 @@ const SolarPanels = () => {
         </div>
 
         {/* LEFT SIDE - Image */}
-        <div className="lg:w-1/2 mt-10 lg:mt-5 flex flex-col gap-2 order-1">
+        <div className="lg:w-1/2 mt-10 lg:mt-5 flex flex-col gap-2 order-2 lg:order-1">
           <div className="relative">
             <img
               src={assets.heat_pump}
@@ -142,6 +159,8 @@ const SolarPanels = () => {
           </div>
         </div>
       </div>
+
+      {/* =========================== END OF INFORMATION SECTIONS =========================== */}
     </section>
   );
 };

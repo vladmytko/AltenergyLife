@@ -30,13 +30,9 @@ const Contact = () => {
     }, COOLDOWN_MS);
 
     emailjs
-      .sendForm(
-        EMAILJS_SERVICE_ID, 
-        EMAILJS_TEMPLATE_ID, 
-        form.current, 
-        {
+      .sendForm(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, form.current, {
         publicKey: EMAILJS_PUBLIC_KEY,
-        })
+      })
       .then(
         () => {
           console.log("Email sent successfully");
@@ -45,7 +41,7 @@ const Contact = () => {
         (error) => {
           console.log("Failed to send email:", error.text);
           setStatus("error");
-        }
+        },
       );
   };
 
@@ -66,16 +62,18 @@ const Contact = () => {
       >
         <div className="flex flex-col lg:flex-row gap-10 mx-auto max-w-xl lg:max-w-none lg:w-full ">
           {/* LEFT TEXT */}
-          <div className="lg:w-1/2 flex flex-col text-center justify-center text-white mr-5">
-            <h1 className="text-3xl sm:text-4xl font-bold mb-4">
+          <div className="lg:w-7/12 flex flex-col text-center justify-center text-white mr-5">
+            <h1 className="text-4xl sm:text-5xl font-meidum mb-4">
               Get In Touch{" "}
             </h1>
-            <p className="text-base sm:text-xl font-semibold mb-2">
-              Interested in learning more about our products and services? Get a
-              free quote today by filling out our online form or giving us a
-              call. Our team will be happy to answer your questions and help you
-              find the perfect solution for your home.
-            </p>
+
+            <div className="text-xl sm:text-2xl mb-2">
+              <p className="mb-2">Find your <span className="font-semibold">perfect energy solution</span> today.</p>
+
+              <p className="mb-2"> <span className="font-semibold">Free quote, no hassle</span> — fill the form or call us.</p>
+
+              <p className="font-semibold mb-2">Step into a warmer, smarter home now.</p>
+            </div>
           </div>
 
           {/* RIGHT FORM */}
@@ -83,7 +81,6 @@ const Contact = () => {
           {/* Successful message */}
           <div className="lg:w-1/2 min-h-[200px] sm:min-h-[520px] flex items-center">
             {status === "success" ? ( // if status = success
-              
               // SHOW this message
               <div className="bg-white rounded-2xl p-12 text-center">
                 <h2 className="text-3xl font-bold text-green-700 mb-4">
@@ -97,9 +94,7 @@ const Contact = () => {
                   We usually respond within 24 hours.
                 </p>
               </div>
-              
             ) : (
-
               // SHOW this form is status != success
 
               /* FORM STARTS HERE */
