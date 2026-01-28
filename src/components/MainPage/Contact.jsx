@@ -183,7 +183,9 @@ const Contact = () => {
                     />
                     <span className="pr-2">
                       By submitting this form, you agree to be contacted
-                      regarding your enquiry. Your details will not be shared.
+                      regarding your enquiry. Your details will not be shared. Check <a href="/privacypolicy" className="hover:underline">
+                 Privacy Policy
+              </a>
                     </span>
                   </label>
                 </div>

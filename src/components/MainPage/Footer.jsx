@@ -28,16 +28,6 @@ const Footer = () => {
               <span>London</span>
               <span>EC1V 2N</span>
             </li>
-
-            {/* Privacy Policy */}
-            <li className="flex flex-col text-center xl:text-start space-y-0">
-              <h3 className="text-white text-xl font-medium mb-3">
-                PRIVACY POLICY
-              </h3>
-              <a href="/privacypolicy" className="hover:underline">
-                View Privacy Policy
-              </a>
-            </li>
           </ul>
         </div>
 

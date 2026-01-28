@@ -30,7 +30,7 @@ const SolarPanels = () => {
           </h2>
 
           <div className="space-y-4 text-gray-900 ">
-            <p className="text-xl md:text-3xl">
+            <p className="text-xl md:text-2xl">
               Solar panels are one of the most effective upgrades for UK
               homeowners looking to{" "}
               <span className="font-semibold">
@@ -74,15 +74,9 @@ const SolarPanels = () => {
                   {item.icon}
                 </div>
 
-                <h3 className="text-xl md:text-2xl font-semibold text-gray-900">
+                <h3 className="text-xl md:text-2xl font-medium text-gray-900">
                   {item.text}
                 </h3>
-
-                {item.description && (
-                  <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-                    {item.description}
-                  </p>
-                )}
               </div>
             ))}
           </div>
@@ -99,7 +93,7 @@ const SolarPanels = () => {
 
         <div className="lg:w-1/2 space-y-10 text-gray-900 order-1 lg:order-2">
           <div className="space-y-8 text-gray-900 ">
-            <p className="text-xl md:text-3xl">
+            <p className="text-xl md:text-2xl">
               Our systems are designed to deliver{" "}
               <span className="font-semibold">
                 up to 60% reduction in electricity costs
@@ -110,7 +104,7 @@ const SolarPanels = () => {
 
             <hr className="mt-6 border-gray-200" />
 
-            <p className="text-xl md:text-3xl">
+            <p className="text-xl md:text-2xl">
               Every installation is tailored to roof orientation, shading, and
               household usage — no generic layouts.
             </p>

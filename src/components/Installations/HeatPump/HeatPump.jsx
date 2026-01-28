@@ -29,14 +29,14 @@ const HeatPump = () => {
             Discover the Benefits
           </h2>
           <div className="space-y-4 text-gray-900 ">
-            <p className="text-xl md:text-3xl">
+            <p className="text-xl md:text-2xl">
               With efficiency levels reaching <span className="font-semibold">up to 300%</span>, they generate
               significantly more heat than the electricity they consume. 
             </p>
 
             <hr className="mt-4 border-gray-200" />
 
-            <p className="text-xl md:text-3xl">
+            <p className="text-xl md:text-2xl">
               This is heating for homeowners who plan ahead.
             </p>
           </div>
@@ -75,15 +75,10 @@ const HeatPump = () => {
                   {item.icon}
                 </div>
 
-                <h3 className="text-xl md:text-2xl font-semibold text-gray-900">
+                <h3 className="text-xl md:text-2xl font-medium text-gray-900">
                   {item.text}
                 </h3>
 
-                {item.description && (
-                  <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-                    {item.description}
-                  </p>
-                )}
               </div>
             ))}
           </div>
@@ -111,14 +106,14 @@ const HeatPump = () => {
         {/* RIGHT SIDE - Text */}
         <div className="lg:w-1/2 space-y-10 text-gray-900 order-1 lg:order-2">
           <div className="space-y-8 text-gray-900 ">
-            <p className="text-xl md:text-3xl">
+            <p className="text-xl md:text-2xl">
               This
               translates into lower running costs, stable indoor temperatures,
               and reduced dependence on gas.
             </p>
 
              <hr className="mt-4 border-gray-200" />
-            <p className="text-xl md:text-3xl">
+            <p className="text-xl md:text-2xl">
               We design each system around insulation levels and heat demand, ensuring consistent warmth without spikes or noise.
             </p>
 

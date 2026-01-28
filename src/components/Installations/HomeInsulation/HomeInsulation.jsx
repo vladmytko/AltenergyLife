@@ -30,7 +30,7 @@ const HomeInsulation = () => {
           </h2>
 
           <div className="space-y-4 text-gray-900 ">
-            <p className="text-xl md:text-3xl">
+            <p className="text-xl md:text-2xl">
               Our insulation solutions are designed to reduce heat loss by{" "}
               <span className="font-semibold">up to 35%</span>, locking warmth
               inside the home and significantly lowering heating demand.
@@ -71,7 +71,7 @@ const HomeInsulation = () => {
                   {item.icon}
                 </div>
 
-                <h3 className="text-lg md:text-2xl font-semibold text-gray-900">
+                <h3 className="text-lg md:text-2xl font-meidum text-gray-900">
                   {item.text}
                 </h3>
               </div>
@@ -101,13 +101,13 @@ const HomeInsulation = () => {
         {/* Right SIDE - Text */}
         <div className="lg:w-1/2 space-y-10 text-gray-900 order-1 lg:order-2">
           <div className="space-y-8 text-gray-900 ">
-            <p className="text-xl md:text-3xl">
+            <p className="text-xl md:text-2xl">
               Each property is assessed individually to maximise performance.
             </p>
 
             <hr className="mt-6 border-gray-200" />
 
-            <p className="text-xl md:text-3xl">
+            <p className="text-xl md:text-2xl">
               Insulation is the invisible upgrade that makes everything work
               better.
             </p>

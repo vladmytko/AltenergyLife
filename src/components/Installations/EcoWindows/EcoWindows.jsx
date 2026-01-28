@@ -29,7 +29,7 @@ const EcoWindows = () => {
           </h2>
 
           <div className="space-y-4 text-gray-900 ">
-            <p className="text-xl md:text-3xl">
+            <p className="text-xl md:text-2xl">
               Our <span className="font-semibold">A-rated eco windows</span> can reduce heat loss by <span className="font-semibold">up to 40%</span>, while
               also cutting outside noise and improving overall comfort. 
             </p>
@@ -69,15 +69,11 @@ const EcoWindows = () => {
                   {item.icon}
                 </div>
 
-                <h3 className="text-xl md:text-2xl font-semibold text-gray-900">
+                <h3 className="text-xl md:text-2xl font-medium text-gray-900">
                   {item.text}
                 </h3>
 
-                {item.description && (
-                  <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-                    {item.description}
-                  </p>
-                )}
+                
               </div>
             ))}
           </div>
@@ -106,14 +102,14 @@ const EcoWindows = () => {
               {/* RIGHT SIDE - Text */}
               <div className="lg:w-1/2 space-y-10 text-gray-900 order-1 lg:order-2">
                 <div className="space-y-8 text-gray-900 ">
-                  <p className="text-xl md:text-3xl">
+                  <p className="text-xl md:text-2xl">
                     The upgrade is immediate — rooms feel warmer, quieter, and more
                     refined.
                   </p>
       
                   <hr className="mt-6 border-gray-200" />
       
-                  <p className="text-xl md:text-3xl">
+                  <p className="text-xl md:text-2xl">
                     A premium upgrade that delivers daily comfort.
                   </p>
                 </div>
