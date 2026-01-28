@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="border-t border-gray-300 py-4  text-center text-gray-300 ">
+      <div className="border-t border-gray-300 my-3 text-center text-gray-300 ">
         © 2024 AltEnergy Life. All rights reserved.
       </div>
     </div>
