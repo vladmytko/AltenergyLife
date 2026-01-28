@@ -20,6 +20,7 @@ import tick from './tick.png'
 import main_logo from './main_logo.png'
 import about_hero_image from './about_hero_image.webp'
 import founder from './founder.webp'
+import smart_meter_readings from './smart_meter_readings.jpg'
 
 
 
@@ -45,7 +46,8 @@ export const assets = {
     tick,
     founder,
     main_logo,
-    about_hero_image   // https://www.pexels.com/photo/solar-panels-installed-on-roofs-12224996/
+    about_hero_image,   // https://www.pexels.com/photo/solar-panels-installed-on-roofs-12224996/
+    smart_meter_readings // https://www.istockphoto.com/photo/close-up-of-woman-holding-smart-energy-meter-in-kitchen-measuring-electricity-and-gm1368017536-438107361 
     // form_background  https://pixabay.com/photos/photovoltaic-photovoltaic-system-2138992/
     // strategy_header_image https://pixabay.com/illustrations/modern-home-air-heat-pump-8889268/
     // main_header_image https://pixabay.com/photos/solar-system-roof-power-generation-2939560/

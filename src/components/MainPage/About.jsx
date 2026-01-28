@@ -75,8 +75,8 @@ export const About = () => {
             <hr className="mt-6 border-gray-200" />
 
             <p className="text-xl md:text-2xl">
-              We deliver bespoke, high-end solutions
-              that save money, improve comfort, and boost property value.
+              We deliver bespoke, high-end solutions that save money, improve
+              comfort, and boost property value.
             </p>
           </div>
         </div>
@@ -144,7 +144,7 @@ export const About = () => {
         <div className="lg:w-1/2 mt-10 lg:mt-5 flex flex-col gap-2 order-2 lg:order-1">
           <div className="relative h-[200px] sm:h-[400px] md:h-[500px] lg:h-[700px]">
             <img
-              src={assets.heat_pump}
+              src={assets.smart_meter_readings}
               alt=""
               className="w-full h-full object-contain rounded"
             />
