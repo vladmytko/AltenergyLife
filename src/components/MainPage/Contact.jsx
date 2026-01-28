@@ -63,11 +63,11 @@ const Contact = () => {
         <div className="flex flex-col lg:flex-row gap-10 mx-auto max-w-xl lg:max-w-none lg:w-full ">
           {/* LEFT TEXT */}
           <div className="lg:w-7/12 flex flex-col text-center justify-center text-white mr-5">
-            <h1 className="text-4xl sm:text-5xl font-meidum mb-4">
+            <h1 className="text-3xl sm:text-4xl font-meidum mb-4">
               Get In Touch{" "}
             </h1>
 
-            <div className="text-xl sm:text-2xl mb-2">
+            <div className="text-base sm:text-xl mb-2">
               <p className="mb-2">Find your <span className="font-semibold">perfect energy solution</span> today.</p>
 
               <p className="mb-2"> <span className="font-semibold">Free quote, no hassle</span> — fill the form or call us.</p>

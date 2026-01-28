@@ -12,7 +12,7 @@ const Services = () => {
         style={{ backgroundColor: "#2d6048" }}
         className="flex flex-col justify-center items-center text-center pt-5 pb-5 sm:pt-10 sm:pb-10 mb-10 "
       >
-        <h2 className="text-white text-2xl sm:text-3xl md:text-5xl font-medium">
+        <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-medium">
           Home Energy Installations
         </h2>
         <div
@@ -39,8 +39,8 @@ const Services = () => {
 
               {/* text content */}
               <div className="p-6 flex flex-col flex-1 ">
-                <h3 className="text-4xl sm:text-4xl font-medium mb-3">{item.title}</h3>
-                <div className="text-gray-900 text-xl sm:text-2xl mb-5 space-y-2 font-light">
+                <h3 className="text-2xl sm:text-4xl font-medium mb-3">{item.title}</h3>
+                <div className="text-gray-900 text-lg sm:text-xl mb-5 space-y-2 font-light">
                   {(Array.isArray(item.description)
                     ? item.description
                     : String(item.description)
