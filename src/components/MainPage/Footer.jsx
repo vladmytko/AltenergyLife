@@ -1,8 +1,8 @@
 import React from "react";
 import SocialIcons from "./SocialIcons";
 import { assets } from "../../assets/assets";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAt, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAt, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -10,8 +10,7 @@ const Footer = () => {
       className="pt-10 px-4 lg:px-32 text-white bg-primary w-full overflow-hidden"
       id="Footer"
     >
-      <div className="container mx-auto flex flex-wrap lg:flex-row justify-center items-center lg:items-start">
-
+      <div className="container mx-auto flex flex-wrap lg:flex-nowrap justify-center items-center lg:items-start">
         {/* First Column */}
         <div className="w-1/2 xl:w-1/5 mb-8 lg:mb-0 lg:mr-1 -mt-8 ">
           {/* <h3 className="text-white text-lg font-bold mb-3">About Us</h3> */}
@@ -29,7 +28,6 @@ const Footer = () => {
               <span>London</span>
               <span>EC1V 2N</span>
             </li>
-           
 
             {/* Privacy Policy */}
             <li className="flex flex-col text-center xl:text-start space-y-0">
@@ -51,8 +49,10 @@ const Footer = () => {
             <FontAwesomeIcon icon={faAt} /> info@altenergylife.co.uk
           </a>
 
-          
-          <span className="block mt-1"><FontAwesomeIcon icon={faPhone} />+44 7520 603184</span>
+          <span className="block mt-1">
+            <FontAwesomeIcon icon={faPhone} />
+            +44 7520 603184
+          </span>
         </div>
 
         {/* Forth Column */}
