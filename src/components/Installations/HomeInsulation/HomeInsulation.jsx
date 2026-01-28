@@ -1,9 +1,8 @@
 import React from "react";
-import { NavBar } from "../../MainPage/NavBar";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 import { assets } from "../../../assets/assets";
 import { HomeInsulationItems } from "./HomeInsulationItems";
+import PageHeader from "../../common/PageHeader";
 motion;
 
 const HomeInsulation = () => {
@@ -11,41 +10,12 @@ const HomeInsulation = () => {
     <section className="white">
 
       {/* =========================== HEADER =========================== */}
-      <div
-        className="h-[50vh] bg-cover bg-center flex items-center w-full overflow-hidden"
-        style={{ backgroundImage: "url('/strategy_header.jpeg')" }}
-        id="Header"
-      >
-        <NavBar />
-        <motion.div
-          initial={{ opacity: 0, y: 100 }}
-          transition={{ duration: 1.5 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="container text-center mx-auto py-4 px-6 md:px-20 lg:px-32 text-white"
-        >
-          <h2 className="text-4xl sm:text-6xl md:text-[82px] inline-block max-w-3xl font-medium pt-20">
-            Home Insulation
-          </h2>
-          <h3 className="text-2xl md:text-5xl inline-block font-medium pt-4">
-            Without proper insulation, even the best systems underperform.
-          </h3>
-          <div className="mt-10 flex flex-col gap-4 sm:flex-row justify-center items-center sm:gap-6">
-            <Link
-              to="/about"
-              className="w-fit border border-white px-8 py-3 rounded hover:border-gray-400 hover:text-gray-400 transition-colors duration-300"
-            >
-              About Us
-            </Link>
-            <a
-              href="/#Contact"
-              className="w-fit bg-secondary px-8 py-3 rounded hover:bg-buttonhover transition-colors duration-300"
-            >
-              Contact Us
-            </a>
-          </div>
-        </motion.div>
-      </div>
+    
+      <PageHeader 
+        title="Home Insulation"
+        subtitle="Without proper insulation, even the best systems underperform."
+        backgroundImage={assets.heat_pump}
+      />
 
       {/* =========================== ENF OF HEADER =========================== */}
 
@@ -121,7 +91,7 @@ const HomeInsulation = () => {
         <div className="lg:w-1/2 mt-10 lg:mt-5 flex flex-col gap-2 order-2 lg:order-1">
           <div className="relative">
             <img
-              src={assets.heat_pump}
+              src={assets.insulation}
               alt=""
               className="w-full object-cover rounded"
             />
