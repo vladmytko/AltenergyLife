@@ -14,7 +14,7 @@ const SolarPanels = () => {
       <PageHeader 
         title="Solar Panels"
         subtitle="This is not just an installation — it’s a long-term energy asset."
-        backgroundImage={assets.heat_pump}
+        backgroundImage={assets.solar_panels_hero}
       />
 
       {/* =========================== ENF OF HEADER =========================== */}
@@ -46,7 +46,7 @@ const SolarPanels = () => {
         <div className="lg:w-1/2 mt-10 lg:mt-5 flex flex-col gap-2 ">
           <div className="relative">
             <img
-              src={assets.heat_pump}
+              src={assets.solar_panels_2}
               alt=""
               className="w-full object-cover rounded"
             />
@@ -121,7 +121,7 @@ const SolarPanels = () => {
         <div className="lg:w-1/2 mt-10 lg:mt-5 flex flex-col gap-2 order-2 lg:order-1">
           <div className="relative">
             <img
-              src={assets.solar_panels}
+              src={assets.solar_panels_3}
               alt=""
               className="w-full object-cover rounded"
             />

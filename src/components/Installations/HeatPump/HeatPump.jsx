@@ -14,7 +14,7 @@ const HeatPump = () => {
       <PageHeader 
         title="Heat Pumps"
         subtitle="Heat pumps provide heating in a fundamentally smarter way."
-        backgroundImage={assets.heat_pump}
+        backgroundImage={assets.heat_pump_hero}
       />
 
       {/* =========================== ENF OF HEADER =========================== */}
@@ -46,7 +46,7 @@ const HeatPump = () => {
         <div className="lg:w-1/2 mt-10 lg:mt-5 flex flex-col gap-2 ">
           <div className="relative">
             <img
-              src={assets.heat_pump}
+              src={assets.smart_thermostat}
               alt=""
               className="w-full object-cover rounded"
             />

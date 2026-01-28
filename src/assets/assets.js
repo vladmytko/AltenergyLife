@@ -21,8 +21,15 @@ import main_logo from './main_logo.png'
 import about_hero_image from './about_hero_image.webp'
 import founder from './founder.webp'
 import smart_meter_readings from './smart_meter_readings.jpg'
-
-
+import solar_panels_2 from './solar_panels_2.webp'
+import solar_panels_3 from './solar_panels_3.webp'
+import solar_panels_hero from './solar_panels_hero.webp'
+import smart_thermostat from '././smart_thermostat.jpg'
+import heat_pump_hero from './heat_pump_hero.jpg'
+import eco_windows_2 from './eco_windows_2.jpg'
+import eco_windows_hero from './eco_windows_hero.jpg'
+import home_insulation_2 from './home_insulation_2.jpg'
+import home_insulation_hero from './home_insulation_hero.webp'
 
 export const assets = {
     logo,
@@ -46,6 +53,15 @@ export const assets = {
     tick,
     founder,
     main_logo,
+    home_insulation_hero,
+    eco_windows_hero,
+    home_insulation_2, //   https://www.pexels.com/photo/unrecognizable-worker-insulating-with-stone-wool-6124239/
+    eco_windows_2, //https://www.pexels.com/photo/two-chairs-with-glass-table-on-living-room-near-window-1571453/
+    heat_pump_hero, //https://www.pexels.com/photo/trees-and-air-conditioner-by-building-wall-20046694/
+    smart_thermostat, // https://unsplash.com/photos/graphical-user-interface-YO5q_7BN7kQ
+    solar_panels_hero, // https://unsplash.com/photos/a-house-with-solar-panels-gqpuuF3a2tY
+    solar_panels_3,// https://unsplash.com/photos/a-building-with-solar-panels-4Wl2YkDqHjU
+    solar_panels_2, // https://unsplash.com/photos/a-solar-panel-on-a-roof-with-a-rainbow-in-the-background-0SyvPKyZc-M
     about_hero_image,   // https://www.pexels.com/photo/solar-panels-installed-on-roofs-12224996/
     smart_meter_readings // https://www.istockphoto.com/photo/close-up-of-woman-holding-smart-energy-meter-in-kitchen-measuring-electricity-and-gm1368017536-438107361 
     // form_background  https://pixabay.com/photos/photovoltaic-photovoltaic-system-2138992/

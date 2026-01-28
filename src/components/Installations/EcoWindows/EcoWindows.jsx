@@ -13,7 +13,7 @@ const EcoWindows = () => {
       <PageHeader 
         title="Eco Windows"
         subtitle="Poor glazing is one of the biggest sources of heat loss in UK homes."
-        backgroundImage={assets.heat_pump}
+        backgroundImage={assets.eco_windows_hero}
       />
 
       {/* =========================== ENF OF HEADER =========================== */}
@@ -40,7 +40,7 @@ const EcoWindows = () => {
         <div className="lg:w-1/2 mt-10 lg:mt-5 flex flex-col gap-2 ">
           <div className="relative">
             <img
-              src={assets.heat_pump}
+              src={assets.eco_windows_2}
               alt=""
               className="w-full object-cover rounded"
             />

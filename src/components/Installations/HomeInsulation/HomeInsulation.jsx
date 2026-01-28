@@ -14,7 +14,7 @@ const HomeInsulation = () => {
       <PageHeader 
         title="Home Insulation"
         subtitle="Without proper insulation, even the best systems underperform."
-        backgroundImage={assets.heat_pump}
+        backgroundImage={assets.home_insulation_hero}
       />
 
       {/* =========================== ENF OF HEADER =========================== */}
@@ -42,7 +42,7 @@ const HomeInsulation = () => {
         <div className="lg:w-1/2 mt-10 lg:mt-5 flex flex-col gap-2 ">
           <div className="relative">
             <img
-              src={assets.heat_pump}
+              src={assets.home_insulation_2}
               alt=""
               className="w-full object-cover rounded"
             />
