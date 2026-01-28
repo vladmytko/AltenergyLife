@@ -18,6 +18,8 @@ import home_energy_update from './home_energy_update.jpg';
 import servicing_system_check from './servicing_system_check.jpg';    
 import tick from './tick.png'
 import main_logo from './main_logo.png'
+import about_hero_image from './about_hero_image.webp'
+import founder from './founder.webp'
 
 
 
@@ -41,7 +43,9 @@ export const assets = {
     mcs_logo,
     gas_safe,
     tick,
-    main_logo
+    founder,
+    main_logo,
+    about_hero_image   // https://www.pexels.com/photo/solar-panels-installed-on-roofs-12224996/
     // form_background  https://pixabay.com/photos/photovoltaic-photovoltaic-system-2138992/
     // strategy_header_image https://pixabay.com/illustrations/modern-home-air-heat-pump-8889268/
     // main_header_image https://pixabay.com/photos/solar-system-roof-power-generation-2939560/
