@@ -32,7 +32,7 @@ const StrategyServices = () => {
               About Us
             </Link>
             <a
-              href="#Contact"
+              href="/#Contact"
               className="w-fit bg-secondary px-8 py-3 rounded hover:bg-buttonhover transition-colors duration-300"
             >
               Contact Us
