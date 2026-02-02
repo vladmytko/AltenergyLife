@@ -41,7 +41,7 @@ const Footer = () => {
 
           <span className="block mt-1">
             <FontAwesomeIcon icon={faPhone} />
-            +44 7520 603184
+            +44 7999 100495
           </span>
         </div>
 
