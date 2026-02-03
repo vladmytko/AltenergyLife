@@ -1,7 +1,7 @@
 import logo from './navbar_logo.png';
 import cross_icon from './cross_icon.svg';
 import menu_icon from './menu_icon.svg';
-import about_image from './about_image.jpg';
+import about_image from './image_about.jpg';
 import heat_pump from './heat_pump.jpg';
 import insulation from './home_insulation.jpg';
 import solar_panels from './solar_panels.jpg';
@@ -20,7 +20,7 @@ import tick from './tick.png'
 import main_logo from './main_logo.png'
 import about_hero_image from './about_hero_image.webp'
 import founder from './founder.webp'
-import smart_meter_readings from './smart_meter_readings.jpg'
+import smart_meter_readings from './smart_meter_reading.webp'
 import solar_panels_2 from './solar_panels_2.webp'
 import solar_panels_3 from './solar_panels_3.webp'
 import solar_panels_hero from './solar_panels_hero.webp'

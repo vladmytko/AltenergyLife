@@ -21,11 +21,11 @@ export const NavBar = () => {
   return (
     <div style={{backgroundColor: "#2d6048"}} className='absolute top-0 left-0 w-full z-10 backdrop-blur-md'>
       <div className='flex items-center justify-between w-full px-4 py-4 md:px-20 lg:px-32'>
-        <Link to="/">
-          <img className='h-11 cursor-pointer' src={assets.logo} alt='Home' />
+        <Link to="/" className='flex-shrink-0'>
+          <img className='h-11 w-32 ml-0 mr-10 cursor-pointer flex-shrink-0' src={assets.logo} alt='Home' />
         </Link>
 
-        <div className='flex-1 flex justify-center md:mr-36'>
+        <div className='hidden md:flex flex-1 justify-center mr-36'>
           <ul className='hidden md:flex gap-7 text-xl text-white'>
             <Link to='/' className='cursor-pointer hover:text-gray-400'>Home</Link>
             <Link to='/about' className='cursor-pointer hover:text-gray-400'>About</Link>
