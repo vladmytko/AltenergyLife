@@ -26,7 +26,7 @@ const Footer = () => {
               <h3 className="text-white text-xl font-medium mb-3">ADDRESS</h3>
               <span>124 City Road</span>
               <span>London</span>
-              <span>EC1V 2N</span>
+              <span>EC1V 2NX</span>
             </li>
           </ul>
         </div>
