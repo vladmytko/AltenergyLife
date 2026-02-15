@@ -22,7 +22,7 @@ export const NavBar = () => {
     <div style={{backgroundColor: "#2d6048"}} className='absolute top-0 left-0 w-full z-10 backdrop-blur-md'>
       <div className='flex items-center justify-between w-full px-4 py-4 md:px-20 lg:px-32'>
         <Link to="/" className='flex-shrink-0'>
-          <img className='h-11 w-32 ml-0 mr-10 cursor-pointer flex-shrink-0' src={assets.logo} alt='Home' />
+          <img className='h-11 w-32  mr-10 cursor-pointer flex-shrink-0' src={assets.logo} alt='Home' />
         </Link>
 
         <div className='hidden md:flex flex-1 justify-center mr-36'>
